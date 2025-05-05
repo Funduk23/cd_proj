@@ -6,7 +6,8 @@ on:
       - main
     paths-ignore:
       - 'pr6/**'
-
+      - 'pr7/**'
+      - 'prometheus.yml'
 jobs:
   build:
     runs-on: ubuntu-latest
