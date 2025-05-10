@@ -8,6 +8,7 @@ on:
       - 'pr6/**'
       - 'pr7/**'
       - 'prometheus.yml'
+      - 'pr8/**'
 jobs:
   build:
     runs-on: ubuntu-latest
